@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="header">
+            <div class="row py-5">
+                <div class="col-sm-0 col-lg-3"></div>
+                <div class="col-sm-12 col-lg-6">
+                    <h1 id=headerText>Gif-Tastic</h1>
+                </div>
+                <div class="col-sm-0 col-lg-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-0 col-lg-2"></div>
+                <div class="col-sm-12 col-lg-8">
+                    <h5>Type the Giphy you would like to look for and we will add a button for you so you can
+                        comeback and look for them easier.There are MPAA-style rating for the content you are looking
+                        for. (Y, G, PG, PG-13 and R). They will be displayed also under the image.</h5>
+                    <br>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="input-group mb-3">
+                                <input type="text" id="customerInputGiphy" class="form-control" placeholder="Type your Giphy search"
+                                    aria-label="Type your Giphy search" aria-describedby="button-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="button" id="searchButton">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-0 col-lg-2"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="col-sm-0 col-lg-1 sides"></div>
+            <div id="appendArea" class="col-sm-12 col-lg-10">
+                <!-- Area where the buttons will be appended -->
+            </div>
+            <div class="col-sm-0 col-lg-1 sides"></div>
+        </div>
+    </section>
+    <section>
+            <div class="row">
+                <div class="col-sm-0 col-lg-1 sides"></div>
+                <div id="giphyArea" class="col-sm-12 col-lg-10">
+                    <!-- Area where the Giphys will be appended -->
+                </div>
+                <div class="col-sm-0 col-lg-1 sides"></div>
+            </div>
+        </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

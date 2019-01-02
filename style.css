@@ -1,0 +1,29 @@
+.header {
+    background-color: skyblue;
+}
+
+#headerText {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 8rem;
+}
+
+#appendArea {
+    background-color: whitesmoke;
+    height: 45vh;
+}
+
+#giphyArea {
+    background-color: whitesmoke;
+    height: 45vh;
+}
+
+.sides {
+    background-color: skyblue;
+}
+
+.oldSearchButton {
+    width: 15vw;
+    height: 6vh;
+    margin:5px;
+}

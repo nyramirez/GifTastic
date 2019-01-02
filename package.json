@@ -16,7 +16,5 @@
     "url": "https://github.com/nyramirez/GifTastic/issues"
   },
   "homepage": "https://github.com/nyramirez/GifTastic#readme",
-  "dependencies": {
-    "dotenv": "^6.2.0"
-  }
+  "dependencies": {}
 }
