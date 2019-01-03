@@ -10,12 +10,13 @@
 
 #appendArea {
     background-color: whitesmoke;
-    height: 45vh;
+    height: 20vh;
 }
 
 #giphyArea {
     background-color: whitesmoke;
-    height: 45vh;
+    height: 66vh;
+    overflow: scroll;
 }
 
 .sides {
@@ -25,5 +26,18 @@
 .oldSearchButton {
     width: 15vw;
     height: 6vh;
-    margin:5px;
+    margin: 5px;
+}
+
+.gif {
+    width: 24vw;
+    height: 30vh;
+    margin: 5px;
+    margin-left: 30vw;
+}
+
+.gifText {
+    font-size: 1rem;
+    margin-left: 30vw;
+
 }
